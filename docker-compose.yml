@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  app:
+    image: poc/test
+    container_name: poc
+    build:
+      context: .
